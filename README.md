@@ -1,7 +1,9 @@
-TypeScript React "Ag Grid" Table Demo
-===================================
+TypeScript React Ag-grid Table Auto Height Demo
+===============================================
 
-How to add/remove rows.
+通过domLayout='autoHeight'来设置。不知道为什么，在`<AgGridReact`上直接设置会报错，只能通过`gridApi.setDomLayout('autoHeight')`设置。
+
+目前没空深究
 
 ```
 npm install
