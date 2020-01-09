@@ -1,7 +1,7 @@
 TypeScript React Ag-grid Table Auto Height Demo
 ===============================================
 
-通过domLayout='autoHeight'来设置。不知道为什么，在`<AgGridReact`上直接设置会报错，只能通过`gridApi.setDomLayout('autoHeight')`设置。
+通过`gridAutoHeight: true`来设置
 
 目前没空深究
 
